@@ -1,0 +1,6 @@
+tamanho_da_escada = float (input ("Insira o tamanho da escada que será usada: "))
+altura = float (input ("Agora coloque altura em que deseja pregar o quadro: "))
+
+distancia = (tamanho_da_escada ** 2 - altura ** 2) ** (1/2) # Se não colocar elevado a meio entre parenteses, o programa multiplica por um e divide por cem
+
+print ("A distância da parede ao ponto inicial da escada é de" , distancia , "metros.")
